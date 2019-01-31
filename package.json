@@ -1,6 +1,6 @@
 {
   "name": "@zhiqiangc/manson-leaflet",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "leaflet tools",
   "main": "index.js",
   "scripts": {
