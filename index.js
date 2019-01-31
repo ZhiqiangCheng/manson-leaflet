@@ -1,4 +1,5 @@
-L.TileLayer.ChinaProvider = L.TileLayer.extend({
+export default function(L) {
+  L.TileLayer.ChinaProvider = L.TileLayer.extend({
     initialize: function(type, options) {
       // (type, Object)
       var providers = L.TileLayer.ChinaProvider.providers;
@@ -33,7 +34,7 @@ L.TileLayer.ChinaProvider = L.TileLayer.extend({
       },
       Subdomains: ["0", "1", "2", "3", "4", "5", "6", "7"]
     },
-  
+
     GaoDe: {
       Normal: {
         Map:
@@ -47,7 +48,7 @@ L.TileLayer.ChinaProvider = L.TileLayer.extend({
       },
       Subdomains: ["1", "2", "3", "4"]
     },
-  
+
     Google: {
       Normal: {
         Map: "http://www.google.cn/maps/vt?lyrs=m@189&gl=cn&x={x}&y={y}&z={z}"
@@ -57,7 +58,7 @@ L.TileLayer.ChinaProvider = L.TileLayer.extend({
       },
       Subdomains: []
     },
-  
+
     Geoq: {
       Normal: {
         Map:
@@ -76,7 +77,7 @@ L.TileLayer.ChinaProvider = L.TileLayer.extend({
       Subdomains: []
     }
   };
-  
+
   L.tileLayer.chinaProvider = function(
     type,
     options = { maxZoom: 18, minZoom: 2 }
@@ -109,7 +110,7 @@ L.TileLayer.ChinaProvider = L.TileLayer.extend({
         }
       }
     };
-  
+
     /**
      * get default layers
      *
@@ -161,4 +162,4 @@ L.TileLayer.ChinaProvider = L.TileLayer.extend({
       }
     };
   };
-  
+}
