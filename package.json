@@ -1,0 +1,23 @@
+{
+  "name": "manson-leaflet",
+  "version": "0.0.1",
+  "description": "leaflet tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhiqiangCheng/manson-leaflet.git"
+  },
+  "keywords": [
+    "leaflet",
+    "tools"
+  ],
+  "author": "zhiqiangc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhiqiangCheng/manson-leaflet/issues"
+  },
+  "homepage": "https://github.com/ZhiqiangCheng/manson-leaflet#readme"
+}
